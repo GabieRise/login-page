@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log</title>
+</head>
+<style>
+    body{
+        background-image: linear-gradient(cyan, bisque);
+        margin-top: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+    h1{
+        /* display: flex; */
+        text-align: center;
+        color: rgb(68, 160, 177);
+    }
+    .box{
+        background-color: white;
+        height: 80vh;
+        width: 600px;
+        margin-left: 300px;
+        border: 20px solid whitesmoke;
+        /* opacity: 10%; */
+        margin-top: 50px;
+        
+        /* align-self: center; */
+    }
+    form{
+        display: block;
+    }
+    .btn{
+        padding: 10px;
+        font-size: 1.4rem;
+        border-radius: 10px;
+        border: none;
+        color:white;
+        cursor: pointer;
+        transition: 100ms transform;
+    }
+    .btn-p{
+        background-image: linear-gradient(cyan, rgb(112, 141, 112));
+
+    }
+</style>
+<body>  
+    <div class="box">
+        <h1>Create Account</h1> 
+        <Form>
+            <label for="fname">Name: </label><input type="name"><br>
+            <label for="email">Email: </label><input type="email"><br>
+            <label for="password">Password: </label><input type="password"><br>
+            <div class="btn">
+                <button class="btn-p">Sign up</button>
+                <button class="btn-s">Sign in</button>
+            </div>
+        </Form>
+    </div>
+</body>
+</html>
