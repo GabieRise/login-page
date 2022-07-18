@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(#02AEEC, #29AC9C 70%);
-    height:100%;
+    height:100vh;
 }
 .main{
     height:500px;
